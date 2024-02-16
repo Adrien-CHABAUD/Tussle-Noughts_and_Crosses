@@ -13,7 +13,7 @@ struct PlayButton: ButtonStyle {
     @State var colorSelected: Color
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
-            .padding(.horizontal, 60)
+            .padding(.horizontal, 40)
             .foregroundStyle(.black)
             .padding(10)
             .background(colorSelected)
