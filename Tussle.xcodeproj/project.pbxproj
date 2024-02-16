@@ -12,6 +12,7 @@
 		E971A64E2B7FD2F600B1CE32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E971A64D2B7FD2F600B1CE32 /* Assets.xcassets */; };
 		E971A6512B7FD2F600B1CE32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E971A6502B7FD2F600B1CE32 /* Preview Assets.xcassets */; };
 		E971A6582B7FD44100B1CE32 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E971A6572B7FD44100B1CE32 /* WelcomeView.swift */; };
+		E971A65A2B8009CF00B1CE32 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = E971A6592B8009CF00B1CE32 /* Styles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		E971A64D2B7FD2F600B1CE32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E971A6502B7FD2F600B1CE32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E971A6572B7FD44100B1CE32 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		E971A6592B8009CF00B1CE32 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				E971A6492B7FD2F400B1CE32 /* TussleApp.swift */,
 				E971A64B2B7FD2F400B1CE32 /* ContentView.swift */,
 				E971A6572B7FD44100B1CE32 /* WelcomeView.swift */,
+				E971A6592B8009CF00B1CE32 /* Styles.swift */,
 				E971A64D2B7FD2F600B1CE32 /* Assets.xcassets */,
 				E971A64F2B7FD2F600B1CE32 /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 				E971A64C2B7FD2F400B1CE32 /* ContentView.swift in Sources */,
 				E971A6582B7FD44100B1CE32 /* WelcomeView.swift in Sources */,
 				E971A64A2B7FD2F400B1CE32 /* TussleApp.swift in Sources */,
+				E971A65A2B8009CF00B1CE32 /* Styles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
