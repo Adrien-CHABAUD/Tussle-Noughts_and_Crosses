@@ -14,6 +14,7 @@
 		E971A65A2B8009CF00B1CE32 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = E971A6592B8009CF00B1CE32 /* Styles.swift */; };
 		E971A65E2B80144A00B1CE32 /* PlayerSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E971A65D2B80144A00B1CE32 /* PlayerSelectionView.swift */; };
 		E971A6632B80154F00B1CE32 /* WelcomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E971A6622B80154F00B1CE32 /* WelcomeViewModel.swift */; };
+		E971A6662B801F6100B1CE32 /* PlayerSelectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E971A6652B801F6100B1CE32 /* PlayerSelectionViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		E971A6592B8009CF00B1CE32 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		E971A65D2B80144A00B1CE32 /* PlayerSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSelectionView.swift; sourceTree = "<group>"; };
 		E971A6622B80154F00B1CE32 /* WelcomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewModel.swift; sourceTree = "<group>"; };
+		E971A6652B801F6100B1CE32 /* PlayerSelectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSelectionViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				E971A6642B80156900B1CE32 /* WelcomeView */,
 				E971A65D2B80144A00B1CE32 /* PlayerSelectionView.swift */,
+				E971A6652B801F6100B1CE32 /* PlayerSelectionViewModel.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			files = (
 				E971A6582B7FD44100B1CE32 /* WelcomeView.swift in Sources */,
 				E971A6632B80154F00B1CE32 /* WelcomeViewModel.swift in Sources */,
+				E971A6662B801F6100B1CE32 /* PlayerSelectionViewModel.swift in Sources */,
 				E971A64A2B7FD2F400B1CE32 /* TussleApp.swift in Sources */,
 				E971A65E2B80144A00B1CE32 /* PlayerSelectionView.swift in Sources */,
 				E971A65A2B8009CF00B1CE32 /* Styles.swift in Sources */,
