@@ -8,11 +8,18 @@
 import SwiftUI
 
 struct SquareView: View {
+    @ObservedObject var viewModel: SquareViewModel
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(action: {
+            // TO-DO
+        }, label: {
+            Text(self.viewModel.squareStatus == .xPlayer ? "X" : self.viewModel.squareStatus == .oPlayer ? "Y" : " ")
+        })
+        .buttonStyle(gridButton())
     }
 }
 
 #Preview {
-    SquareView()
+    SquareView(viewModel: SquareViewModel(squareStatus: .xPlayer))
 }

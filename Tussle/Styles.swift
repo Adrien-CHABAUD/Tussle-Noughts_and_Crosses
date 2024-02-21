@@ -32,3 +32,16 @@ struct OptionButtons: ButtonStyle {
         
     }
 }
+
+struct gridButton: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .font(.largeTitle)
+            .bold()
+            .frame(width: 70, height: 70)
+            .foregroundStyle(Color.black)
+            .background(Color.gray.opacity(0.3))
+            .clipShape(RoundedRectangle(cornerRadius: 10.0))
+            .padding(4)
+    }
+}
