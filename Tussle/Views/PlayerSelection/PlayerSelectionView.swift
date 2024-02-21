@@ -70,7 +70,7 @@ struct PlayerSelectionView: View {
                     })
                     .buttonStyle(PlayButton(colorSelected: .primary1))
                     .navigationDestination(isPresented: $viewModel.startGame) {
-                        WelcomeView()
+                        GameView()
                     }
                     
                     Spacer()

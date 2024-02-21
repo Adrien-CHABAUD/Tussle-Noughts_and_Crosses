@@ -92,6 +92,7 @@ struct WelcomeView: View {
                 }
             }
             }
+        .tint(Color.white)
         }
     }
 
