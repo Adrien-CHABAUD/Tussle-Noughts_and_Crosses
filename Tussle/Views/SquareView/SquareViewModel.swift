@@ -16,6 +16,8 @@ enum stateSquare {
 final class SquareViewModel: ObservableObject {
     @Published var squareStatus: stateSquare
     
+    
+    
     init(squareStatus: stateSquare) {
         self.squareStatus = squareStatus
     }
