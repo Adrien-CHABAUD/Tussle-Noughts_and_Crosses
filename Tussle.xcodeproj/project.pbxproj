@@ -17,6 +17,8 @@
 		E971A6662B801F6100B1CE32 /* PlayerSelectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E971A6652B801F6100B1CE32 /* PlayerSelectionViewModel.swift */; };
 		E971A66E2B86648400B1CE32 /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E971A66D2B86648400B1CE32 /* SquareView.swift */; };
 		E971A6702B86648D00B1CE32 /* SquareViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E971A66F2B86648D00B1CE32 /* SquareViewModel.swift */; };
+		E971A6752B86667400B1CE32 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E971A6742B86667400B1CE32 /* GameView.swift */; };
+		E971A6772B86667E00B1CE32 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E971A6762B86667E00B1CE32 /* GameViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		E971A6652B801F6100B1CE32 /* PlayerSelectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSelectionViewModel.swift; sourceTree = "<group>"; };
 		E971A66D2B86648400B1CE32 /* SquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareView.swift; sourceTree = "<group>"; };
 		E971A66F2B86648D00B1CE32 /* SquareViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareViewModel.swift; sourceTree = "<group>"; };
+		E971A6742B86667400B1CE32 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		E971A6762B86667E00B1CE32 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 				E971A6712B86649400B1CE32 /* SquareView */,
 				E971A6642B80156900B1CE32 /* WelcomeView */,
 				E971A6672B85046400B1CE32 /* PlayerSelection */,
+				E971A6782B86668200B1CE32 /* GameView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -115,6 +120,15 @@
 				E971A66F2B86648D00B1CE32 /* SquareViewModel.swift */,
 			);
 			path = SquareView;
+			sourceTree = "<group>";
+		};
+		E971A6782B86668200B1CE32 /* GameView */ = {
+			isa = PBXGroup;
+			children = (
+				E971A6742B86667400B1CE32 /* GameView.swift */,
+				E971A6762B86667E00B1CE32 /* GameViewModel.swift */,
+			);
+			path = GameView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,9 +205,11 @@
 				E971A6632B80154F00B1CE32 /* WelcomeViewModel.swift in Sources */,
 				E971A6662B801F6100B1CE32 /* PlayerSelectionViewModel.swift in Sources */,
 				E971A64A2B7FD2F400B1CE32 /* TussleApp.swift in Sources */,
+				E971A6752B86667400B1CE32 /* GameView.swift in Sources */,
 				E971A66E2B86648400B1CE32 /* SquareView.swift in Sources */,
 				E971A6702B86648D00B1CE32 /* SquareViewModel.swift in Sources */,
 				E971A65E2B80144A00B1CE32 /* PlayerSelectionView.swift in Sources */,
+				E971A6772B86667E00B1CE32 /* GameViewModel.swift in Sources */,
 				E971A65A2B8009CF00B1CE32 /* Styles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

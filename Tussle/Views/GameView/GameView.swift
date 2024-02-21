@@ -8,8 +8,21 @@
 import SwiftUI
 
 struct GameView: View {
+    @StateObject var viewModel = GameViewModel()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Player's turn")
+            
+            ForEach(0 ..< viewModel.squares.count / 3) { row in
+                HStack {
+                    ForEach(0 ..< 3) { column in
+                        let index = row * 3 + column
+                        SquareView(viewModel: viewModel.squares[index])
+                    }
+                }
+            }
+        }
     }
 }
 
