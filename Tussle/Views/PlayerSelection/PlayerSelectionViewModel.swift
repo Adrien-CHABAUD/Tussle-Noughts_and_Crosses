@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 final class PlayerSelectionViewModel: ObservableObject {
     @Published var crossPlayerName: String
@@ -24,7 +25,6 @@ final class PlayerSelectionViewModel: ObservableObject {
             startGame = true
         } else {
             startGame = false
-            // TO-DO: Alert one name is not completed
         }
     }
 }
