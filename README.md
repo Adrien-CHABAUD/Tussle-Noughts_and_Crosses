@@ -4,7 +4,7 @@
   Author: Adrien CHABAUD
   -->
 
-  <img src="/Readme/Adrien_banner.png">
+  <img src="/Readme/Tussle_banner.png">
 
   # Tussle - Noughts & Crosses ![Swift Badge](https://img.shields.io/badge/Swift%20Version-5-orange) 
 
